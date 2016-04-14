@@ -1,1 +1,4 @@
 include ':okhttpApp', ':okhttpLibrary'
+
+include ':okio'
+project(':okio').projectDir = file(OKIO_DIR + '/ide/okio_android_studio/okioLibrary')
